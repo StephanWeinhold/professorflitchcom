@@ -19,7 +19,7 @@ templateClass: tmpl-album
 
 {% if datePublished %}
 <p>
-  <time datetime="{{ datePublished }}">{{ datePublished }}</time>
+  <time datetime="{{ datePublished }}">{{ datePublished | niceDate }}</time>
 </p>
 {% endif %}
 
