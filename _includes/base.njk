@@ -26,9 +26,6 @@
 
     <link rel="preconnect" href="/" crossorigin>
     <link rel="preload" href="/fonts/shadows-into-light-two-v17-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-    <script async defer src="{{ "/js/min.js" }}"
-      {% if webvitals %}data-cwv-src="{{ "/js/web-vitals.js" }}"{% endif %}>
-    </script>
     <!-- Notably iOS UAs also contain Mac OS X -->
     <script csp-hash>if (/Mac OS X/.test(navigator.userAgent))document.documentElement.classList.add('apple')
     </script>
