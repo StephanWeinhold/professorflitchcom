@@ -34,13 +34,21 @@ templateClass: tmpl-album
 {{ content | safe }}
 
 {% set shareUrl = metadata.url + page.url %}
-{#{% set previousAlbum = collections.album | getPreviousCollectionItem %}
-{% set nextAlbum = collections.album | getNextCollectionItem %}
+{% set previousAlbum = collections.album | getPreviousCollectionItem(page) %}
+{% set nextAlbum = collections.album | getNextCollectionItem(page) %}
 <p>
-  {% if previousAlbum %}<a href="{{ previousAlbum.url }}">&larr; {{ previoustitle }}</a><br>{% endif %}
-  {% if nextAlbum %}<a href="{{ nextAlbum.url }}">&rarr; {{ nexttitle }}</a>{% endif %}
+  {% if previousAlbum %}
+    <a class="album-link" href="{{ previousAlbum.url }}" style="background-color: {{ previousAlbum.data.secondaryColor }}; color: {{ previousAlbum.data.primaryColor }};">
+      &larr; <img src="{{ previousAlbum.data.image }}" /> {{ previousAlbum.data.title }}
+    </a><br>
+  {% endif %}
+  {% if nextAlbum %}
+    <a class="album-link" href="{{ nextAlbum.url }}" style="background-color: {{ nextAlbum.data.secondaryColor }}; color: {{ nextAlbum.data.primaryColor }};">
+      {{ nextAlbum.data.title }} <img src="{{ nextAlbum.data.image }}" /> &rarr;
+    </a>
+  {% endif %}
 </p>
-#}
+
 <share-widget>
   <button on-click="share" aria-label="Share" href="{{ shareUrl | safe }}">
     <div></div>

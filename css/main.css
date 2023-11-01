@@ -113,3 +113,12 @@ share-widget button:active {
 .tracks td {
   padding-right: 1em;
 }
+
+.album-link {
+  padding: .2em;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.album-link > img {
+  width: 60px;
+}
