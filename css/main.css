@@ -61,6 +61,9 @@ img {
 
 h1 {
   font-family: 'Shadows Into Light Two';
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 body > header > a {
