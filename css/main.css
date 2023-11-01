@@ -1,11 +1,6 @@
 /* Color customization */
 :root {
   --primary: #f6b092;
-  --primary-dark: #b5400e;
-}
-
-.test-dead-code-elimination-sentinel {
-  color: red;
 }
 
 /*
@@ -42,6 +37,32 @@ header nav {
 }
 /*! purgecss end ignore */
 
+/* shadows-into-light-two-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Shadows Into Light Two';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/shadows-into-light-two-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  background-color: rgb(20,20,20);
+  color: rgb(255,255,255);
+}
+
+a {
+  color: rgb(255,255,255);
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Shadows Into Light Two';
+}
+
 share-widget {
   position: fixed;
   right: 20px;
@@ -69,9 +90,22 @@ share-widget button:active {
   transform: scale(1.2);
 }
 
-dialog {
-  background-color: #8dff80;
-  position: fixed;
-  opacity: 0.9;
-  z-index: 1000;
+.pickled-ginger {
+  clear: both;
+}
+
+.services > a {
+  display: block;
+  float: left;
+  margin-right: 1em;
+  padding: 1em;
+  transition: background-color .2s ease-in
+}
+
+.services > a:hover {
+  background-color: rgb(50,50,50);
+}
+
+.tracks td {
+  padding-right: 1em;
 }

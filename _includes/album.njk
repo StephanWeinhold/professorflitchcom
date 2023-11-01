@@ -5,6 +5,32 @@ templateClass: tmpl-album
 {% extends "base.njk" %}
 
 {% block album %}
+<h2>{{ title }}</h2>
+<img src="{{ image }}" alt="{{ title }}" />
+
+{% if services %}
+<div class="services">
+  {% for service, url in services %}
+    <a href="{{ url }}"><img src="/img/{{ service }}.png" alt="{{ service }}" /></a>
+  {% endfor %}
+</div>
+<div class="pickled-ginger"> </div>
+{% endif %}
+
+{% if datePublished %}
+<p>
+  <time datetime="{{ datePublished }}">{{ datePublished }}</time>
+</p>
+{% endif %}
+
+{% if tracks %}
+<table class="tracks">
+  {% for track,time in tracks %}
+    <tr><td>{{ loop.index }}.</td><td>{{ track }}</td><td>({{ time }})</td></tr>
+  {% endfor %}
+</table>
+{% endif %}
+
 {{ content | safe }}
 
 {% set shareUrl = metadata.url + page.url %}
