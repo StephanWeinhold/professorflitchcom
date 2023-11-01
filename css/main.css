@@ -97,6 +97,15 @@ share-widget button:active {
   transform: scale(1.2);
 }
 
+section {
+  float: left;
+  width: 49%;
+}
+
+section:nth-child(odd) {
+  margin-right: .4em;
+}
+
 article {
   margin-top: 1em;
 }
