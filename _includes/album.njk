@@ -4,12 +4,11 @@ templateClass: tmpl-album
 ---
 {% extends "base.njk" %}
 
-{% set shareUrl = metadata.url + page.url %}
-
 {% block album %}
 {{ content | safe }}
-{#
-{% set previousAlbum = collections.album | getPreviousCollectionItem %}
+
+{% set shareUrl = metadata.url + page.url %}
+{#{% set previousAlbum = collections.album | getPreviousCollectionItem %}
 {% set nextAlbum = collections.album | getNextCollectionItem %}
 <p>
   {% if previousAlbum %}<a href="{{ previousAlbum.url }}">&larr; {{ previoustitle }}</a><br>{% endif %}
