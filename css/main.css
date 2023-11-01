@@ -63,6 +63,10 @@ h1 {
   font-family: 'Shadows Into Light Two';
 }
 
+body > header > a {
+  text-decoration: none;
+}
+
 share-widget {
   position: fixed;
   right: 20px;
