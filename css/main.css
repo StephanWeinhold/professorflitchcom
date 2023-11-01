@@ -122,3 +122,14 @@ share-widget button:active {
 .album-link > img {
   width: 60px;
 }
+
+footer {
+  background-color: rgb(220,220,220);
+  color: rgb(20,20,20);
+  margin-top: 2em;
+  padding: 1em;
+}
+
+footer a {
+  color: rgb(20,20,20);
+}
