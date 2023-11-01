@@ -40,7 +40,9 @@
     </header>
 
     <main>
-      
+      {% block album %}
+        {{ content | safe }}
+      {% endblock %}
     </main>
 
     <article>
