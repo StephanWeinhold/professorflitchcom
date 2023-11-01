@@ -1,4 +1,6 @@
 ---
+primaryColor: "#2B0129"
+secondaryColor: "#13C9B0"
 tags: album
 layout: album.njk
 image: "/img/professor-flitch-the-mortals-ep.jpg"

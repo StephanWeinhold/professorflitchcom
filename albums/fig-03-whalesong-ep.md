@@ -1,4 +1,6 @@
 ---
+primaryColor: "#022253"
+secondaryColor: "#FAA72D"
 tags: album
 layout: album.njk
 image: "/img/professor-flitch-whalesong-ep.png"
