@@ -1,7 +1,9 @@
-{% for album in albumslist | reverse %}
-  <section>
-    <a href="{{ album.url }}">
-      <img src="{{ album.data.image }}" alt="{{ album.data.title }}" />
-    </a>
-  </section>
-{% endfor %}
+<div class="say-no-to-margin-collapse">
+  {% for album in albumslist | reverse %}
+    <section>
+      <a href="{{ album.url }}">
+        <img src="{{ album.data.image }}" alt="{{ album.data.title }}" />
+      </a>
+    </section>
+  {% endfor %}
+</div>

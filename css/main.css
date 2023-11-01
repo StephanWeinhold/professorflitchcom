@@ -97,6 +97,11 @@ share-widget button:active {
   transform: scale(1.2);
 }
 
+.say-no-to-margin-collapse {
+  margin: 1em 0;
+  overflow: hidden;
+}
+
 section {
   float: left;
   width: 49%;
@@ -104,10 +109,6 @@ section {
 
 section:nth-child(odd) {
   margin-right: .4em;
-}
-
-article {
-  margin-top: 1em;
 }
 
 .pickled-ginger {
