@@ -1,0 +1,18 @@
+{
+  "title": "Professor Flitch",
+  "url": "https://professorflitch.com",
+  "domain": "professorflitch.com",
+  "description": "Professor Flitch is creating music. Period.",
+  "genre": "MusicGroup",
+  "sendWebVitals": false,
+  "feed": {
+    "subtitle": "Professor Flitch",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://professorflitch.com"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://professorflitch.com/feed/feed.json"
+  }
+}
