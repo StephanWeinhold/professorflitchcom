@@ -1,6 +1,6 @@
 /* Color customization */
 :root {
-  --primary: #f6b092;
+  --primary: rgb(220,220,220);
 }
 
 /*
@@ -94,6 +94,10 @@ share-widget button:active {
   transform: scale(1.2);
 }
 
+article {
+  margin-top: 1em;
+}
+
 .pickled-ginger {
   clear: both;
 }
@@ -119,6 +123,7 @@ share-widget button:active {
   text-decoration: none;
   vertical-align: middle;
 }
+
 .album-link > img {
   width: 60px;
 }
