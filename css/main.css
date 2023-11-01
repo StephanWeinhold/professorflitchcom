@@ -66,8 +66,16 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 1.2em;
+}
+
 body > header > a {
   text-decoration: none;
+}
+
+main {
+  font-size: 120%;
 }
 
 share-widget {
@@ -104,11 +112,16 @@ share-widget button:active {
 
 section {
   float: left;
+  font-size: 97%;
   width: 49%;
 }
 
 section:nth-child(odd) {
   margin-right: .4em;
+}
+
+section > a {
+  display: block;
 }
 
 .pickled-ginger {
@@ -132,7 +145,7 @@ section:nth-child(odd) {
 }
 
 .album-link {
-  padding: .2em;
+  padding: .4em .8em;
   text-decoration: none;
   vertical-align: middle;
 }
@@ -150,4 +163,27 @@ footer {
 
 footer a {
   color: rgb(20,20,20);
+}
+
+@media (min-width: 960px) {
+  html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body {
+    width: 960px;
+  }
+
+  footer {
+    background-color: rgb(20,20,20);
+    color: rgb(255,255,255);
+    margin-top: 3em;
+    padding: 0;
+  }
+  
+  footer a {
+    color: rgb(200,200,200);
+  }
 }
