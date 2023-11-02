@@ -39,12 +39,12 @@ templateClass: tmpl-album
 <p>
   {% if previousAlbum %}
     <a class="album-link" href="{{ previousAlbum.url }}" style="background-color: {{ previousAlbum.data.secondaryColor }}; color: {{ previousAlbum.data.primaryColor }};">
-      &larr; <img src="{{ previousAlbum.data.image }}" /> {{ previousAlbum.data.title }}
+      ❮ <img src="{{ previousAlbum.data.image }}" /> {{ previousAlbum.data.title }}
     </a><br>
   {% endif %}
   {% if nextAlbum %}
     <a class="album-link" href="{{ nextAlbum.url }}" style="background-color: {{ nextAlbum.data.secondaryColor }}; color: {{ nextAlbum.data.primaryColor }};">
-      {{ nextAlbum.data.title }} <img src="{{ nextAlbum.data.image }}" /> &rarr;
+      {{ nextAlbum.data.title }} <img src="{{ nextAlbum.data.image }}" /> ❯
     </a>
   {% endif %}
 </p>

@@ -154,6 +154,10 @@ section > a {
   width: 60px;
 }
 
+.album-link > img:last-child {
+  margin-top: 1em;
+}
+
 footer {
   background-color: rgb(220,220,220);
   color: rgb(20,20,20);
