@@ -175,14 +175,8 @@ section > a {
 }
 
 footer {
-  background-color: rgb(220,220,220);
-  color: rgb(20,20,20);
   margin-top: 2em;
   padding: 1em;
-}
-
-footer a {
-  color: rgb(20,20,20);
 }
 
 @media (min-width: 960px) {
@@ -194,17 +188,6 @@ footer a {
 
   body {
     width: 960px;
-  }
-
-  footer {
-    background-color: rgb(20,20,20);
-    color: rgb(255,255,255);
-    margin-top: 3em;
-    padding: 0;
-  }
-  
-  footer a {
-    color: rgb(200,200,200);
   }
 
   .album-cover {
