@@ -206,4 +206,8 @@ footer a {
   footer a {
     color: rgb(200,200,200);
   }
+
+  .album-cover {
+    width: 60%;
+  }
 }
