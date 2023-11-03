@@ -31,4 +31,4 @@ services:
 
 Written and recorded in winter and spring 2022.
 
-I had this songs in my head for a while. So in spring 2022 I went down to my basement and recorded them. My kids came up with the song titles. E voila.
+I had these songs in my head for a while. So in spring 2022 I went down to my basement and recorded them. My kids came up with the song titles. E voila.
