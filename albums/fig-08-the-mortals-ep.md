@@ -20,6 +20,7 @@ genre: "Modern Fusion"
 locationCreated: Salzburg
 services:
   bandcamp: https://professorflitch.bandcamp.com/album/fig-8-the-mortals-ep
+  spotify: https://open.spotify.com/album/6QovsTQa2oR62TbUExEpw7
   ytMusic: https://music.youtube.com/playlist?list=OLAK5uy_n-ATbiR_uZyjil6WCthGGsgobjvogq5Rc
   amazonMusic: https://music.amazon.com/albums/B0CJLFYFMN
   tidal: https://tidal.com/browse/album/317675108
