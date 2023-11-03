@@ -1,6 +1,6 @@
 ---
-primaryColor: "#022253"
-secondaryColor: "#FAA72D"
+primaryColor: "#FFFFFF"
+secondaryColor: "#F823D7"
 tags: album
 layout: album.njk
 image: "/img/professor-flitch-the-cat-ep.jpg"
