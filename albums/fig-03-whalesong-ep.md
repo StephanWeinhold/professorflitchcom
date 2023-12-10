@@ -20,6 +20,11 @@ genre: "Modern Fusion"
 locationCreated: Salzburg
 services:
   bandcamp: https://professorflitch.bandcamp.com/album/fig-3-whalesong-ep
+  spotify: https://open.spotify.com/album/1nD3LlqeH4p3cMwgoPcBo4
+  ytMusic: https://music.youtube.com/channel/UCXFAXLBmR-O5b-jVcTolS-w
+  amazonMusic: https://music.amazon.de/albums/B0CPMGCY5F
+  tidal: https://tidal.com/browse/album/333649507
+  soundcloud: https://soundcloud.com/professorflitch/sets/fig-3-whalesong-ep
 ---
 
 Written and recorded in winter and spring 2022.
