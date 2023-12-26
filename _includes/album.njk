@@ -38,12 +38,12 @@ templateClass: tmpl-album
 {% set nextAlbum = collections.album | getNextCollectionItem(page) %}
 <p>
   {% if previousAlbum %}
-    <a class="album-link" href="{{ previousAlbum.url }}" style="background-color: {{ previousAlbum.data.secondaryColor }}; color: {{ previousAlbum.data.primaryColor }};">
+    <a class="album-link" href="{{ previousAlbum.url }}" alt="{{ previousAlbum.title }}" style="background-color: {{ previousAlbum.data.secondaryColor }}; color: {{ previousAlbum.data.primaryColor }};">
       ❮ <img src="{{ previousAlbum.data.image }}" /> {{ previousAlbum.data.title }}
     </a><br>
   {% endif %}
   {% if nextAlbum %}
-    <a class="album-link" href="{{ nextAlbum.url }}" style="background-color: {{ nextAlbum.data.secondaryColor }}; color: {{ nextAlbum.data.primaryColor }};">
+    <a class="album-link" href="{{ nextAlbum.url }}" alt="{{ nextAlbum.title }}" style="background-color: {{ nextAlbum.data.secondaryColor }}; color: {{ nextAlbum.data.primaryColor }};">
       {{ nextAlbum.data.title }} <img src="{{ nextAlbum.data.image }}" /> ❯
     </a>
   {% endif %}
