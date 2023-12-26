@@ -9,7 +9,7 @@ templateClass: tmpl-content
 Stephan Weinhold,
 83395 Freilassing,
 Deutschland,
-[hello@professorflitch.com](hello@professorflitch.com),
+[hello@professorflitch.com](mailto:hello@professorflitch.com),
 professorflitch.com ist meine persönliche Webseite.
 
 ## Imprint & Data Protection
@@ -46,7 +46,7 @@ You can reach me using the following contact details:
 Stephan Weinhold,
 83395 Freilassing,
 Germany,
-[hello@professorflitch.com](hello@professorflitch.com)
+[hello@professorflitch.com](mailto:hello@professorflitch.com)
 
 ## Offenlegung & Datenschutz
 
@@ -82,6 +82,6 @@ Ihr erreicht mich unter folgenden Kontaktdaten:
 Stephan Weinhold,
 83395 Freilassing,
 Deutschland,
-[hello@professorflitch.com](hello@professorflitch.com)
+[hello@professorflitch.com](mailto:hello@professorflitch.com)
 
 [❮ Back to the home page.](/)
