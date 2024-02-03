@@ -37,13 +37,13 @@ header nav {
 }
 /*! purgecss end ignore */
 
-/* zeyada-regular - latin */
+/* rubik-glitch-pop-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Zeyada';
+  font-display: swap;
+  font-family: 'Rubik Glitch Pop';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/zeyada-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/rubik-glitch-pop-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* roboto-regular - latin */
@@ -70,9 +70,10 @@ img {
 }
 
 h1 {
-  font-family: 'Zeyada';
+  font-family: 'Rubik Glitch Pop';
+  font-size: 4em;
   font-weight: normal;
-  margin: 0;
+  margin: .2em 0 .5em;
 }
 
 h2 {
@@ -192,6 +193,11 @@ footer a {
 
   body {
     width: 960px;
+  }
+
+  h1 {
+    font-size: 6em;
+    margin: .5em 0 1em;
   }
 
   .album-cover {
