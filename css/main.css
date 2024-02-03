@@ -179,6 +179,10 @@ footer {
   padding: 1em;
 }
 
+footer a {
+  font-size: 80%;
+}
+
 @media (min-width: 960px) {
   html {
     display: flex;
