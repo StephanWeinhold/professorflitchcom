@@ -157,6 +157,10 @@ section > a {
   background-color: rgb(50,50,50);
 }
 
+.services img {
+  height: 32px;
+}
+
 .tracks td {
   padding-right: 1em;
 }
@@ -182,6 +186,12 @@ footer {
 
 footer a {
   font-size: 80%;
+}
+
+footer > .icons img {
+  height: 32px;
+  margin: 1.5em;
+  width: auto;
 }
 
 @media (min-width: 960px) {
