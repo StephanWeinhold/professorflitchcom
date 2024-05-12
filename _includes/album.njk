@@ -7,7 +7,7 @@ ogtype: music.album
 
 {% block album %}
 <h2>{{ title }}</h2>
-<img class="album-cover" src="{{ image }}" alt="{{ title }}" />
+<a href="{{ image }}" target="_blank"><img class="album-cover" src="{{ image }}" alt="{{ title }}" /></a>
 
 {% if services %}
 <div class="services">
