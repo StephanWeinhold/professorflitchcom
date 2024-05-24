@@ -1,0 +1,13 @@
+<div class="say-no-to-margin-collapse">
+  <div class="bemusterung">
+    {% for album in bemusterunglist | sort(attribute="data.title") | reverse %}
+      {% set dlLink = album.title | slugify %}
+      <p>
+        <a href="professor-flitch-{{ album.data.title | slugify }}.zip">
+          <img src="{{ album.data.image }}" alt="{{ album.data.title }}" />
+          {{ album.data.title }} ({{ album.data.datePublished | niceDate }})
+        </a>
+      </p>
+    {% endfor %}
+  </div>
+</div>

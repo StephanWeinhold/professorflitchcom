@@ -1,4 +1,5 @@
 User-Agent: *
-Disallow: /offenlegung-datenschutz
+Disallow: /offenlegung-datenschutz/
+Disallow: /media/
 
 Sitemap: sitemap.xml

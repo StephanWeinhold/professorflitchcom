@@ -194,6 +194,14 @@ footer a {
   width: auto;
 }
 
+.bemusterung img {
+  width: 2em;
+}
+
+details:first-child {
+  margin-bottom: 1em;
+}
+
 @media (min-width: 960px) {
   html {
     display: flex;
