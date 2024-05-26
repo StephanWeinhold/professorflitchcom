@@ -1,7 +1,8 @@
 ---
+singleId: 04_01
 primaryColor: "#f1488c"
 secondaryColor: "#972554"
-tags: album
+tags: single
 layout: album.njk
 image: "/img/professor-flitch-kicking-that-door-wide-open.jpg"
 artist: Professor Flitch
