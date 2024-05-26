@@ -4,4 +4,3 @@ title: Media
 templateClass: tmpl-content
 ---
 
-test
