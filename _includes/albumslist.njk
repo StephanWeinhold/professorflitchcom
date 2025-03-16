@@ -1,6 +1,6 @@
 <div class="albums-list">
   {% for album in albumslist | sort(attribute="data.title") | reverse %}
-    <section>
+    <section aria-label="Album">
       <a href="{{ album.url }}">
         <img src="{{ album.data.image }}" alt="{{ album.data.title }}" />
       </a>
