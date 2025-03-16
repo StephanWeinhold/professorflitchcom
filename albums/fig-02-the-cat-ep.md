@@ -20,11 +20,6 @@ genre: "Modern Fusion"
 locationCreated: Salzburg
 services:
   bandcamp: https://professorflitch.bandcamp.com/album/fig-2-the-cat-ep
-  spotify: https://open.spotify.com/album/58fV0l89y8vAuSx7mdnnK0
-  ytMusic: https://music.youtube.com/playlist?list=OLAK5uy_mKhXw-apFjUKo-WvWBIohh3wmmo-DmPeQ
-  amazonMusic: https://music.amazon.com/albums/B0CTJ4X3L1
-  tidal: https://listen.tidal.com/album/342648196
-  soundcloud: https://soundcloud.com/professorflitch/sets/fig-2-the-cat-ep
 ---
 
 Written and recorded in winter and spring 2022. Rerecorded, and remastered in December 2023.
