@@ -127,17 +127,17 @@ share-widget button:active {
   overflow: hidden;
 }
 
-section {
-  float: left;
-  font-size: 97%;
-  width: 49%;
+.albums-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-section:nth-child(odd) {
-  margin-right: .4em;
+.albums-list section {
+  width: 45%;
+  margin: 1em;
 }
 
-section > a {
+.albums-list section > a {
   display: block;
 }
 

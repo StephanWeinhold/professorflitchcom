@@ -1,4 +1,4 @@
-<div class="say-no-to-margin-collapse">
+<div class="albums-list">
   {% for album in albumslist | sort(attribute="data.title") | reverse %}
     <section>
       <a href="{{ album.url }}">
