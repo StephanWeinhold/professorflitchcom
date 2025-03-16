@@ -184,8 +184,8 @@ footer {
   padding: 1em;
 }
 
-footer a {
-  font-size: 80%;
+.legal {
+  text-align: center;
 }
 
 .icons img {
