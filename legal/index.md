@@ -13,7 +13,7 @@ professorflitch.com is a personal website.
 ## Legal & Data Protection
 
 Declaration on the obligation to provide information (data protection declaration)  
-The protection of your personal data is particularly important to us. For this reason, we only store your data with our German hosting partner (###AV Vertrag###) and not with any other external providers. We are processing your data exclusively on the basis of the legal provisions (GDPR, TKG 2003).
+The protection of your personal data is particularly important to us. For this reason, we only store your data with our German hosting partner and not with any other external providers. We are processing your data exclusively on the basis of the legal provisions (GDPR, TKG 2003).
 
 Contacting us  
 If you are contacting us via email, the data you provide will be stored for six months in order to process your request and in case of follow-up questions. We will not pass on this data without your consent.
