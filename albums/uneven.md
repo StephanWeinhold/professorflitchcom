@@ -28,7 +28,7 @@ gtin12: 0000000000000
 genre: "Modern Fusion"
 locationCreated: Salzburg
 services:
-  bandcamp: https://professorflitch.bandcamp.com/
+  bandcamp: https://professorflitch.bandcamp.com/album/uneven
 ---
 
 Coming in summer '25
