@@ -21,9 +21,32 @@ figure {
 figure a {
   font-size: .8em;
 }
+
+.subnav {
+  margin-bottom: 3em;
+}
+
+.pill {
+  background-color: rgb(220, 220, 220);
+  border-radius: .4em;
+  color: rgb(0, 0, 0);
+  padding: .4em .8em;
+  text-decoration: none;
+}
+
+.pill::before {
+  content: "↓ ";
+}
 </style>
 
-<h2>Information</h2>
+<div class="subnav">
+  <a href="#information" class="pill">Information</a>
+  <a href="#download" class="pill">Download Releases</a>
+  <a href="#stream" class="pill">Stream Album <i>Uneven</i></a>
+  <a href="#contact" class="pill">Contact</a>
+</div>
+
+<h2 id="information">Information</h2>
 
 <details>
   <summary>About Professor Flitch - English Version</summary>
@@ -43,33 +66,69 @@ figure a {
 
 <article class="pickled-ginger">&nbsp;</article>
 
-<h2>Download Releases</h2>
+<h2 id="download">Download Releases</h2>
 
 {% set bemusterunglist = collections.album %}
 {% include "bemusterunglist.njk" %}
 
-<h2>Stream Latest Release</h2>
+<h2 id="stream">Stream Album <i>Uneven</i></h2>
 
 <figure>
-  <figcaption>1. Kicking That Door Wide Open (2:28)</figcaption>
-  <audio controls src="/media/professor-flitch-kicking-that-door-wide-open.mp3"></audio>
+  <figcaption>1. The Ketamine Brothers Flying Ferret Circus</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20The%20Ketamine%20Brothers%20Flying%20Ferret%20Circus.mp3"></audio>
 </figure>
 <figure>
-  <figcaption>2. Sky City (2:44)</figcaption>
-  <audio controls src="/media/professor-flitch-sky-city.mp3"></audio>
+  <figcaption>2. That Last Day of Summer</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20That%20Last%20Day%20of%20Summer.mp3"></audio>
 </figure>
 <figure>
-  <figcaption>3. Miika (3:24)</figcaption>
-  <audio controls src="/media/professor-flitch-miika.mp3"></audio>
+  <figcaption>3. The Death of Boa Sr</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20The%20Death%20of%20Boa%20Sr.mp3"></audio>
 </figure>
 <figure>
-  <figcaption>3. Berlin Burning (3:12)</figcaption>
-  <audio controls src="/media/professor-flitch-berlin-burning.mp3"></audio>
+  <figcaption>4. Neon Neoff</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20Neon%20Neoff.mp3"></audio>
+</figure>
+<figure>
+  <figcaption>5. L.E.P.I.</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20L.E.P.I..mp3"></audio>
+</figure>
+<figure>
+  <figcaption>6. Living Machines of Perpetual Motion</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20Living%20Machines%20of%20Perpetual%20Motion.mp3"></audio>
+</figure>
+<figure>
+  <figcaption>7. (Interlude)</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20%28Interlude%29.mp3"></audio>
+</figure>
+<figure>
+  <figcaption>8. Hiding Behind the Fermi Paradox</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20Hiding%20Behind%20the%20Fermi%20Paradox.mp3"></audio>
+</figure>
+<figure>
+  <figcaption>9. Oculus Anubis</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20Oculus%20Anubis.mp3"></audio>
+</figure>
+<figure>
+  <figcaption>10. Mousecop</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20Mousecop.mp3"></audio>
+</figure>
+<figure>
+  <figcaption>11. A Ghost Inside a Girl</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20A%20Ghost%20Inside%20a%20Girl.mp3"></audio>
+</figure>
+<figure>
+  <figcaption>12. The Architect</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20The%20Architect.mp3"></audio>
+</figure>
+<figure>
+  <figcaption>13. The End Is Just Another One In That Long Line of Endings</figcaption>
+  <audio controls src="/media/Professor%20Flitch%20-%20The%20End%20Is%20Just%20Another%20One%20In%20That%20Long%20Line%20of%20Endings.mp3"></audio>
 </figure>
 
 <script src="/js/script.js"></script>
 
-<h2>Contact</h2>
+<h2 id="contact">Contact</h2>
 
 <p><a href="mailto:hello@professorflitch.com">hello@professorflitch.com</a></p>
 
