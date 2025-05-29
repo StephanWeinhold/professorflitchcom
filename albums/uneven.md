@@ -3,7 +3,7 @@ primaryColor: "#ffffff"
 secondaryColor: "#333333"
 tags: album
 layout: album.njk
-image: ""
+image: "/img/professor-flitch-uneven.jpg"
 artist: Professor Flitch
 title: Uneven
 datePublished: 2025
