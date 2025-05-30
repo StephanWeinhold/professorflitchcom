@@ -37,6 +37,17 @@ figure a {
 .pill::before {
   content: "↓ ";
 }
+
+@media (max-width: 960px) {
+  .pill {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  .pill:last-child {
+    margin-bottom: 0;
+  }
+}
 </style>
 
 <div class="subnav">
