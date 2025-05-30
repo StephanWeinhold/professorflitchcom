@@ -31,4 +31,4 @@ services:
   bandcamp: https://professorflitch.bandcamp.com/album/uneven
 ---
 
-Coming in summer '25
+With Uneven, Professor Flitch has arrived on the music scene. After releasing five successful EPs in the last three years, the Salzburg-based one-man instrumental band is presenting their debut album. And it's a real treat. Dreamy songs that are both intricate and accessible. Professor Flitch creates unique musical landscapes that are always worth immersing yourself in.
